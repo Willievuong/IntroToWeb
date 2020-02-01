@@ -3516,6 +3516,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"classnames@npm:^2.2.6":
+  version: 2.2.6
+  resolution: "classnames@npm:2.2.6"
+  checksum: f04e8b5b3ee2c7c4deec538752f364c6e61bf4459e011dd12553bcab87d25b4d5778a6e48a2f704b2ae65b1e89b727046c102aa4a3a91e522723f96771286095
+  languageName: node
+  linkType: hard
+
 "clean-css@npm:^4.2.1":
   version: 4.2.3
   resolution: "clean-css@npm:4.2.3"
@@ -11254,6 +11261,16 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"redux@npm:^4.0.5":
+  version: 4.0.5
+  resolution: "redux@npm:4.0.5"
+  dependencies:
+    loose-envify: ^1.4.0
+    symbol-observable: ^1.2.0
+  checksum: bf8fcfa44db283545db4dd56043de7e164852ac81b61503f2c06e2c9a0d5670338c3722fe642134afb633346507f1568a309da9153c95d2213a0ff404d31625a
+  languageName: node
+  linkType: hard
+
 "redux@workspace:.":
   version: 0.0.0-use.local
   resolution: "redux@workspace:."
@@ -11261,10 +11278,12 @@ fsevents@^1.2.7:
     "@testing-library/jest-dom": ^4.2.4
     "@testing-library/react": ^9.3.2
     "@testing-library/user-event": ^7.1.2
+    classnames: ^2.2.6
     react: ^16.12.0
     react-dom: ^16.12.0
     react-redux: ^7.1.3
     react-scripts: 3.3.1
+    redux: ^4.0.5
   languageName: unknown
   linkType: soft
 
@@ -12703,6 +12722,13 @@ resolve@1.1.7:
   bin:
     svgo: ./bin/svgo
   checksum: cfa94b7984952c8f976350eac72fda492436be44f4b4ce2a788a2be03fe90cc23bb958d4f1b98b0e2e003cb7b72edd9f3017dcf5c905c4576c2c6dddd24c9ed7
+  languageName: node
+  linkType: hard
+
+"symbol-observable@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "symbol-observable@npm:1.2.0"
+  checksum: b033c8d6fa245a68b421b891b2fe07a9459274593405250918c7aea7ce4e991a94b1491bae1b68a8d90bd05c35a2f6862258b97334931df13850fe4daa0b2999
   languageName: node
   linkType: hard
 
