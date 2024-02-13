@@ -16,4 +16,5 @@ Although it is lacking as of now, my plan is to expand the amount of content the
 ### Python 
     - Intro to Flask 
     - Intro to Requests (A Python Package)
+    - Websocket: Hello World
 
